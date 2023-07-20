@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Increase the font size and add margin to the menu */
+.menu {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Add margin to the playerChoice and result sections */
+.playerChoice,
+.result {
+  margin-top: 20px;
+  display: none;
+}
+
+/* Style the buttons */
+button {
+  padding: 6px 24px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Style the alert message */
+.alert {
+  padding: 12px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style the header and main section */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+/* Increase the font size for specific elements */
+.menu h3,
+.playerChoice label,
+.playerChoice input,
+.alert {
+  font-size: 20px;
+}
